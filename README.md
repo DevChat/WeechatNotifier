@@ -1,10 +1,10 @@
-#IrssiNotifier
-
-Now released on [Google Play](https://play.google.com/store/apps/details?id=fi.iki.murgo.irssinotifier)!
+#WeechatNotifier
 
 IRC notifications for Android (and possibly other devices).
 
-Web page: https://irssinotifier.appspot.com/
+
+
+Ported from IrssiNotifier@ https://irssinotifier.appspot.com/
 
 ##Goals:
 
@@ -20,6 +20,6 @@ Web page: https://irssinotifier.appspot.com/
 
 ##License
 
-    Copyright 2012 Lauri Härsilä where applicable (commits made by murgo, Lauri Härsilä or Unknown on this repository. I'm new to this github stuff).
+    Copyright 2012 Lauri Hï¿½rsilï¿½ where applicable (commits made by murgo, Lauri Hï¿½rsilï¿½ or Unknown on this repository. I'm new to this github stuff).
 
     Licensed under the Apache License, Version 2.0, see LICENSE.

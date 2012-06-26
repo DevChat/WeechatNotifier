@@ -21,10 +21,6 @@ lastAddress = ""
 lastTarget = ""
 lastKeyboardActivity = ""
 
-def weechat_init:
-        w.register( SCRIPT_NAME, SCRIPT_AUTHOR, SCRIPT_VERSION, SCRIPT_LICENSE,
-                  SCRIPT_DESC, "", "")
-
 def private:
     return
 
@@ -57,3 +53,10 @@ def setup_keypress_handler:
 
 def even_key_pressed:
     return
+
+
+if __name__ = "__main__" and import_ok:
+    w.register( SCRIPT_NAME, SCRIPT_AUTHOR, SCRIPT_VERSION, SCRIPT_LICENSE, SCRIPT_DESC, "", "")
+
+    w.hook_print( "", "", "", 1, "hlpv_print_cb", "" )
+    
